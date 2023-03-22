@@ -10,6 +10,12 @@ function App() {
       <Hero />
       <Endorsements />
       <Functionality />
+      {/* TODO  Implement referrals section */}
+      {/* TODO  Implement prices and plans section */}
+      {/* TODO  Implement modules section */}
+      {/* TODO  Implement about us section */}
+      {/* TODO  Implement contact us section */}
+      {/* TODO  Implement footer */}
     </>
   );
 }
