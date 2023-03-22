@@ -1,0 +1,21 @@
+.endorsements {
+  padding: 6rem 1rem;
+  background-color: lighten(gray, 40%);
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .endorsements-list {
+    display: flex;
+    justify-content: space-between;
+    .endorsement {
+      img {
+        object-fit: cover;
+        width: 150px;
+        height: 100px;
+      }
+    }
+  }
+}
