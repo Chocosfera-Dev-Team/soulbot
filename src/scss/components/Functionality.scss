@@ -1,0 +1,36 @@
+.functionality {
+  padding: 6rem 1rem;
+
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .functionality-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    list-style: none;
+
+    .functionality {
+      text-align: center;
+      width: 80%;
+      img {
+        object-fit: cover;
+        height: 100px;
+        width: 150px;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+
+  .functionality-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+}

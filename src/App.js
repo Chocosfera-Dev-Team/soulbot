@@ -1,6 +1,7 @@
-import Endorsements from "./components/Endorsements";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Functionality from "./components/Functionality";
+import Endorsements from "./components/Endorsements";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Endorsements />
+      <Functionality />
     </>
   );
 }

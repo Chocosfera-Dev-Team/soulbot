@@ -9,7 +9,7 @@ export default function Header() {
 
       <nav className="nav">
         <a href="/">TOOL</a>
-        <a href="/">FEATURES</a>
+        <a href="#functionality">FEATURES</a>
         <a href="/">PRICING</a>
         <a href="/">TEAM</a>
       </nav>
@@ -20,7 +20,7 @@ export default function Header() {
           <button>EN</button>
           <button>IT</button>
         </div>
-        <button className="login-btn">LOG IN</button>
+        <button className="btn">LOG IN</button>
       </div>
     </div>
   );
