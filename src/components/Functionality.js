@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Functionality() {
   return (
-    <div className="functionality" id="functionality">
+    <div className="functionalities" id="functionality">
       <div className="content-container">
         <h2>
           Tutte le principali funzionalità di gestione e funding di una
           community in un unico bot
         </h2>
         <ul className="functionality-list">
-          {functions.map((el) => (
-            <li className="functionality">
+          {functions.map((el, i) => (
+            <li key={i} className="functionality">
               <img src={el.img} alt="functionality"></img>
               <h3>{el.title}</h3>
               <p>{el.description}</p>

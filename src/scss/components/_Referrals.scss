@@ -1,0 +1,48 @@
+.referrals {
+  padding: 6rem 1rem 0;
+
+  .content-container {
+    border-bottom: 1px solid gray;
+    padding-bottom: 6rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .referrals-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    list-style: none;
+
+    .referral {
+      background-color: lighten(gray, 40%);
+      padding: 2rem;
+      font-size: 1.4rem;
+
+      &__review {
+        margin-bottom: 3rem;
+      }
+      &__name {
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+      }
+      &__position {
+        font-size: 1.2rem;
+      }
+      .referral-details-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

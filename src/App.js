@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Functionality from "./components/Functionality";
 import Endorsements from "./components/Endorsements";
+import Referrals from "./components/Referrals";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Hero />
       <Endorsements />
       <Functionality />
-      {/* TODO  Implement referrals section */}
+      <Referrals />
       {/* TODO  Implement prices and plans section */}
       {/* TODO  Implement modules section */}
       {/* TODO  Implement about us section */}
