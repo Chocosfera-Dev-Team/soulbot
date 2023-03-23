@@ -16,6 +16,12 @@ button {
   cursor: pointer;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  padding: 1rem;
+}
+
 .section-title {
   font-size: 1.6rem;
   text-align: center;
