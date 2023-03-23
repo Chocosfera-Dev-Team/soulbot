@@ -1,0 +1,49 @@
+.plans {
+  padding: 6rem 1rem 0;
+
+  .content-container {
+    border-bottom: 1px solid gray;
+    padding-bottom: 6rem;
+    & > h2 {
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .plan {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    &--card {
+      background-color: lighten(gray, 40%);
+      flex-grow: 1;
+      padding: 2rem;
+
+      &__header {
+        text-align: center;
+        padding: 0 0 3.6rem;
+        h2 {
+          font-size: 2.8rem;
+          padding: 1rem 0 0.6rem;
+        }
+        p {
+          font-size: 1.4rem;
+        }
+      }
+
+      &__details {
+        padding-left: 2rem;
+        font-size: 1.6rem;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .plan-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+}
