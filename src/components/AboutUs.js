@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <div className="about-us" id="about-us">
       <div className="content-container">
-        <h2>About us</h2>
+        <h2 className="section-title">About us</h2>
 
         <p className="about-us__description">
           Soulbot nasce dall'entusiasmo di German, full-stack developer che dal

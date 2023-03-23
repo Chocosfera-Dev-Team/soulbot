@@ -4,7 +4,7 @@ export default function Plans() {
   return (
     <div className="plans" id="plans">
       <div class="content-container">
-        <h2>Prezzi e Piani</h2>
+        <h2 className="section-title">Prezzi e Piani</h2>
         <div className="plan">
           <div className="plan--card">
             <div className="plan--card__header">

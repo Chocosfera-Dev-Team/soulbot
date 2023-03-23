@@ -4,7 +4,9 @@ export default function Referrals() {
   return (
     <div className="referrals">
       <div className="content-container">
-        <h2>Cosa pensano i clienti e gli utenti di Soulbot</h2>
+        <h2 className="section-title">
+          Cosa pensano i clienti e gli utenti di Soulbot
+        </h2>
         <ul className="referrals-list">
           {referrals.map((el, i) => (
             <li key={i} className="referral">

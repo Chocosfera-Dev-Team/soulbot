@@ -4,7 +4,7 @@ export default function Functionality() {
   return (
     <div className="functionalities" id="functionality">
       <div className="content-container">
-        <h2>
+        <h2 className="section-title">
           Tutte le principali funzionalità di gestione e funding di una
           community in un unico bot
         </h2>

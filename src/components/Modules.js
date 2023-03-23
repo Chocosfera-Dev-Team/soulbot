@@ -4,7 +4,7 @@ export default function Modules() {
   return (
     <div className="modules">
       <div className="content-container">
-        <h2>Moduli di Soulbot</h2>
+        <h2 className="section-title">Moduli di Soulbot</h2>
 
         <ul className="modules__list">
           {modules.map((el, i) => (

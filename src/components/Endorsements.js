@@ -4,7 +4,7 @@ export default function Endorsements() {
   return (
     <div className="endorsements">
       <div className="content-container">
-        <h2>Endorsements and partners</h2>
+        <h2 className="section-title">Endorsements and partners</h2>
 
         <ul className="endorsements-list">
           <li className="endorsement">
