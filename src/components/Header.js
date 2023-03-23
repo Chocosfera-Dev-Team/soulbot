@@ -10,7 +10,7 @@ export default function Header() {
       <nav className="nav">
         <a href="/">TOOL</a>
         <a href="#functionality">FEATURES</a>
-        <a href="/">PRICING</a>
+        <a href="#plans">PRICING</a>
         <a href="/">TEAM</a>
       </nav>
 

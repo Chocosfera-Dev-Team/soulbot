@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Plans() {
   return (
-    <div className="plans">
+    <div className="plans" id="plans">
       <div class="content-container">
         <h2>Prezzi e Piani</h2>
         <div className="plan">

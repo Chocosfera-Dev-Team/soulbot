@@ -1,0 +1,42 @@
+.modules {
+  padding: 6rem 1rem 0;
+
+  .content-container {
+    border-bottom: 1px solid gray;
+    padding-bottom: 6rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+
+    .module {
+      height: 16rem;
+      background-color: lighten(gray, 40%);
+      padding: 2rem;
+
+      h3 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+      }
+
+      &__description {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        &__command {
+          font-weight: 600;
+          margin-bottom: 0.2rem;
+          color: rgb(47, 194, 47);
+        }
+      }
+    }
+  }
+}
