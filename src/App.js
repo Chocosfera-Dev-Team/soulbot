@@ -5,6 +5,7 @@ import Endorsements from "./components/Endorsements";
 import Referrals from "./components/Referrals";
 import Plans from "./components/Plans";
 import Modules from "./components/Modules";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Referrals />
       <Plans />
       <Modules />
-      {/* TODO  Implement about us section */}
+      <AboutUs />
       {/* TODO  Implement contact us section */}
       {/* TODO  Implement footer */}
     </>

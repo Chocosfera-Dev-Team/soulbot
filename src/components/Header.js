@@ -11,7 +11,7 @@ export default function Header() {
         <a href="/">TOOL</a>
         <a href="#functionality">FEATURES</a>
         <a href="#plans">PRICING</a>
-        <a href="/">TEAM</a>
+        <a href="#about-us">TEAM</a>
       </nav>
 
       <div className="actions-container">
