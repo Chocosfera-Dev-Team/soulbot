@@ -8,7 +8,7 @@ export default function Header() {
       </div>
 
       <nav className="nav">
-        <a href="/">TOOL</a>
+        <a href="#modules">TOOL</a>
         <a href="#functionality">FEATURES</a>
         <a href="#plans">PRICING</a>
         <a href="#about-us">TEAM</a>

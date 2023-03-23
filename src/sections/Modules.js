@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Modules() {
   return (
-    <div className="modules">
+    <div className="modules" id="modules">
       <div className="content-container">
         <h2 className="section-title">Moduli di Soulbot</h2>
 
