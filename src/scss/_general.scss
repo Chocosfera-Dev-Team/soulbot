@@ -18,6 +18,18 @@ input[type="number"] {
   padding: 1rem;
 }
 
+button {
+  cursor: pointer;
+}
+
+a {
+  color: darken(gray, 30%);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .section-title {
   font-size: 1.6rem;
   text-align: center;
@@ -31,7 +43,7 @@ input[type="number"] {
 }
 
 .content-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

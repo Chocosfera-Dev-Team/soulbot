@@ -16,8 +16,8 @@ export default function Hero() {
           </p>
 
           <div className="hero-actions">
-            <button>Vai alla demo</button>
-            <button>Chiedi più info</button>
+            <button className="btn">Vai alla demo</button>
+            <button className="btn">Chiedi più info</button>
           </div>
         </div>
 
