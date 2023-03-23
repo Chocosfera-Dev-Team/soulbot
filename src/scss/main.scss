@@ -2,11 +2,12 @@
 @use "general";
 
 // sections
-@use "components/Header";
-@use "components/Hero";
-@use "components/Endorsements";
-@use "components/Functionality";
-@use "components/Referrals";
-@use "components/Plans";
-@use "components/Modules";
-@use "components/AboutUs";
+@use "sections/Header";
+@use "sections/Hero";
+@use "sections/Endorsements";
+@use "sections/Functionality";
+@use "sections/Referrals";
+@use "sections/Plans";
+@use "sections/Modules";
+@use "sections/AboutUs";
+@use "sections/Contact";

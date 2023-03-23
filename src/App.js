@@ -1,11 +1,12 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Functionality from "./components/Functionality";
-import Endorsements from "./components/Endorsements";
-import Referrals from "./components/Referrals";
-import Plans from "./components/Plans";
-import Modules from "./components/Modules";
-import AboutUs from "./components/AboutUs";
+import Header from "./sections/Header";
+import Hero from "./sections/Hero";
+import Functionality from "./sections/Functionality";
+import Endorsements from "./sections/Endorsements";
+import Referrals from "./sections/Referrals";
+import Plans from "./sections/Plans";
+import Modules from "./sections/Modules";
+import AboutUs from "./sections/AboutUs";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Plans />
       <Modules />
       <AboutUs />
-      {/* TODO  Implement contact us section */}
+      <Contact />
       {/* TODO  Implement footer */}
     </>
   );
