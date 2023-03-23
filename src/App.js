@@ -7,6 +7,7 @@ import Plans from "./sections/Plans";
 import Modules from "./sections/Modules";
 import AboutUs from "./sections/AboutUs";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Modules />
       <AboutUs />
       <Contact />
-      {/* TODO  Implement footer */}
+      <Footer />
     </>
   );
 }

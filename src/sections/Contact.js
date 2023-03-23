@@ -7,7 +7,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="content-container">
         <h2 className="section-title">
           Contattaci subito e scopri cosa possiamo fare per te

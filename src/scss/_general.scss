@@ -12,10 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-button {
-  cursor: pointer;
-}
-
 input[type="text"],
 input[type="email"],
 input[type="number"] {
@@ -31,6 +27,7 @@ input[type="number"] {
 .btn {
   padding: 0.8rem 1rem;
   border: none;
+  cursor: pointer;
 }
 
 .content-container {

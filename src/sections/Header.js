@@ -15,7 +15,7 @@ export default function Header() {
       </nav>
 
       <div className="actions-container">
-        <a href="/">TRY IT OUT</a>
+        <a href="#contact">TRY IT OUT</a>
         <div className="lang-container">
           <button>EN</button>
           <button>IT</button>
