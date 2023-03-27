@@ -1,23 +1,20 @@
 import React from "react";
 
+import { useTranslation } from "react-i18next";
+
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <div className="hero">
       <div className="content-container">
         <div className="hero-text">
-          <h1>
-            Il miglior tool di Telegram per far crescere le comunità digitali
-          </h1>
-          <p>
-            Con il Soulbot crei i tuoi comandi di registrazione e verifica,
-            riscuoti pagamenti, generi token, crei sondaggi. Con soulbot
-            gestisci tutto attraverso Telegram automatizzando tutte le fasi con
-            semplici azioni
-          </p>
+          <h1>{t("hero.title")}</h1>
+          <p>{t("hero.paragraph")}</p>
 
           <div className="hero-actions">
-            <button className="btn">Vai alla demo</button>
-            <button className="btn">Chiedi più info</button>
+            <button className="btn">{t("hero.btn-one")}</button>
+            <button className="btn">{t("hero.btn-two")}</button>
           </div>
         </div>
 

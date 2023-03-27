@@ -1,13 +1,13 @@
 import React from "react";
 
+import { useTranslation } from "react-i18next";
+
 export default function Functionality() {
+  const { t } = useTranslation();
   return (
     <div className="functionalities" id="functionality">
       <div className="content-container">
-        <h2 className="section-title">
-          Tutte le principali funzionalità di gestione e funding di una
-          community in un unico bot
-        </h2>
+        <h2 className="section-title">{t("functionality.title")}</h2>
         <ul className="functionality-list">
           {functions.map((el, i) => (
             <li key={i} className="functionality">
@@ -19,8 +19,8 @@ export default function Functionality() {
         </ul>
 
         <div className="functionality-actions">
-          <button className="btn">Vai alla demo</button>
-          <button className="btn">Chiedi più info</button>
+          <button className="btn">{t("functionality.btn-one")}</button>
+          <button className="btn">{t("functionality.btn-two")}</button>
         </div>
       </div>
     </div>

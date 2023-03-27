@@ -1,10 +1,14 @@
 import React from "react";
 
+import { useTranslation } from "react-i18next";
+
 export default function Endorsements() {
+  const { t } = useTranslation();
+
   return (
     <div className="endorsements">
       <div className="content-container">
-        <h2 className="section-title">Endorsements and partners</h2>
+        <h2 className="section-title">{t("endorsements.title")}</h2>
 
         <ul className="endorsements-list">
           <li className="endorsement">

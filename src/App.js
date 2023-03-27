@@ -1,3 +1,6 @@
+import React, { Suspense } from "react";
+import "./i18n";
+
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Functionality from "./sections/Functionality";
@@ -12,16 +15,18 @@ import Footer from "./sections/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Endorsements />
-      <Functionality />
-      <Referrals />
-      <Plans />
-      <Modules />
-      <AboutUs />
-      <Contact />
-      <Footer />
+      <Suspense fallback={null}>
+        <Header />
+        <Hero />
+        <Endorsements />
+        <Functionality />
+        <Referrals />
+        <Plans />
+        <Modules />
+        <AboutUs />
+        <Contact />
+        <Footer />
+      </Suspense>
     </>
   );
 }

@@ -1,0 +1,20 @@
+{
+  "header": {
+    "nav": ["tool", "features", "pricing", "team"],
+    "demo-link": "Try it out"
+  },
+  "hero": {
+    "title": "The best Telegram tool to grow your digital community",
+    "paragraph": "With Soulbot you can create your registration and verification commands, redeem payments, generate tokens, and create surveys. With Soulbot you will manage everything through Telegram, automating all phases with simple actions",
+    "btn-one": "Go to demo",
+    "btn-two": "Ask for more information"
+  },
+  "endorsements": {
+    "title": "Endorsements and partners"
+  },
+  "functionality": {
+    "title": "All main functionality for managing and funding of a community in one bot",
+    "btn-one": "Go to demo",
+    "btn-two": "Ask for more information"
+  }
+}
