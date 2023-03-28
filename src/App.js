@@ -1,4 +1,4 @@
-import React, { useState, Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import "./i18n";
 
 import Header from "./sections/Header";
@@ -16,7 +16,15 @@ import { ReactComponent as MoonIco } from "./assets/icons/moon.svg";
 import { ReactComponent as SunIco } from "./assets/icons/sun.svg";
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState();
+
+  useEffect(() => {
+    setTheme(
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light"
+    );
+  }, []);
 
   const handleThemeSwitch = () => {
     setTheme(theme === "light" ? "dark" : "light");
