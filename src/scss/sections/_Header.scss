@@ -1,5 +1,3 @@
-@use "../themes";
-
 .brand-container {
   font-size: 2rem;
   font-weight: 600;
@@ -34,7 +32,7 @@
     a {
       letter-spacing: 0.2rem;
       padding: 0.8rem 1rem;
-      border-right: 1px solid black;
+      border-right: 1px solid var(--secondary);
       font-size: 1.2rem;
       text-decoration: none;
       color: inherit;
